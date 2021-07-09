@@ -1,4 +1,4 @@
-package com.shane.boot;
+package com.shane.boot.controller;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -9,14 +9,14 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class FormTest {
 	
-	@GetMapping("/")
+//	@GetMapping("/")
 	public ModelAndView index(ModelAndView mav) {
 		mav.addObject("msg", "please type your name");
 		mav.setViewName("formTemplate");
 		return mav;
 	}
 	
-	@PostMapping("/")
+//	@PostMapping("/")
 	public ModelAndView form(
 			@RequestParam("text")String text
 			,ModelAndView mav) {

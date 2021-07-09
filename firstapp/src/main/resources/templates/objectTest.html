@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+	<h1>Hello world</h1>
+	<p th:object="${object}">
+		<span th:text="|my id is *{id}. name is *{name} and value is *{value}.|"></span>
+	</p>
+</body>
+</html>

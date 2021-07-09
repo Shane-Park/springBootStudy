@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FirstController {
 
-	@RequestMapping(value="/", produces=MediaType.APPLICATION_JSON_VALUE)
+//	@RequestMapping(value="/", produces=MediaType.APPLICATION_JSON_VALUE)
 	public String index() {
 		return "Hello world!";
 	}

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ReturnTest {
-	@RequestMapping("/returntest/{num1}/{num2}")
+//	@RequestMapping("/returntest/{num1}/{num2}")
 	public int[] addOperator(
 			@PathVariable int num1
 			,@PathVariable int num2) {

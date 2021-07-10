@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-@Controller
+// @Controller
 public class RepositoryTest {
 
-	@PostConstruct
+	// @PostConstruct
 	public void init(){
 		Member member1 = new Member();
 		member1.setId(1);
